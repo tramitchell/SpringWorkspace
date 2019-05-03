@@ -1,0 +1,79 @@
+package com.revature.sorting;
+
+import java.util.Arrays;
+
+public class SelectionSort {
+
+	public static void main(String[] args) {
+		int[] array = {5, 9, 21, -44, 8};
+		int[] sortedArray = sort(array);
+		System.out.println(Arrays.toString(sortedArray));
+	}
+	
+	public static int findMin(int[] arr)
+	{
+		int min = arr[0];
+		for(int i = 0; i < arr.length; i++)
+		{
+			if(arr[i] < min)
+				min = arr[i];			
+		}
+		return min;
+	}
+	
+	public static int[] sort(int[] arr)
+	{
+		
+		/*
+		arr[0] = min(remaining)
+		arr[1] = min(remaining)
+		.
+		.
+		.
+		
+		arr[last] = min(remaining)
+		
+		
+		
+		*/
+		
+		int[] sortedArray = new int[arr.length];
+		
+		for(int i = 0; i < arr.length; i++)
+		{
+			sortedArray[i] = findMin(subArray(arr, i));
+			
+		}
+		
+		
+		return sortedArray;
+		
+		
+		
+	}
+	
+	public static void swap(int a, int b)
+	{
+		int temp = a;
+		a = b;
+		b = temp;
+	}
+	
+	public static int[] subArray(int[] arr, int index)
+	{
+		int[] subArray = new int[arr.length - index];
+		
+		int subIndex = 0;
+		//int superIndex = 0;
+		while(subIndex < subArray.length)
+		{
+			subArray[subIndex] = arr[index + subIndex];
+			subIndex++;
+		}
+				
+				
+				
+				
+		return subArray;
+	}
+}

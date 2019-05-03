@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Dog myDog = new Dog();
+		Dog otherDog = new Dog(4, "Bob", true, 12.22);
+	
+		System.out.println( otherDog.getNumberOfLegs()  );
+		
+	}
+	
+}

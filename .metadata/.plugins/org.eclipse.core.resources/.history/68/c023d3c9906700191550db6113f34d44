@@ -1,0 +1,66 @@
+package com.revature.pillars;
+
+import com.revature.blueprint.RocketShip;
+
+public class UltraRocketShip extends RocketShip {
+	private boolean hasBar;
+	private String warpDriveModel;
+	
+	
+	//default constructor
+	public UltraRocketShip() {
+		super();
+		this.setIsMiniFridge(true);
+	}
+
+
+	//constructor with parameters
+	public UltraRocketShip(String name, int numOfRockets, int fuelCapacity, boolean hasBar, String warpDriveModel) {
+		super(name, numOfRockets, fuelCapacity, true);
+		this.hasBar = hasBar;
+		this.warpDriveModel = warpDriveModel;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return    "UltraRocketShip [name=" + super.getName() + 
+				", numOfRockets=" + super.getNumOfRockets() + 
+				", fuelCapacity=" + super.getFuelCapacity() + 
+				", hasBar=" + hasBar + 
+				", warpDriveModel=" + warpDriveModel + 
+				"]";
+	}
+
+
+	@Override
+	public boolean getIsMiniFridge() {
+		System.out.println("duh of course it has a mini fridge");
+		return super.getIsMiniFridge();
+	}
+	
+	
+	
+	
+
+	public boolean getHasBar() {
+		return hasBar;
+	}
+	public void setHasBar(boolean hasBar) {
+		this.hasBar = hasBar;
+	}
+
+
+	public String getWarpDriveModel() {
+		return warpDriveModel;
+	}
+	public void setWarpDriveModel(String warpDriveModel) {
+		this.warpDriveModel = warpDriveModel;
+	}		
+}

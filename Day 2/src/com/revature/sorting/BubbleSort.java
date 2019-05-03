@@ -1,0 +1,69 @@
+package com.revature.sorting;
+
+public class BubbleSort {
+
+	public static void main(String[] args) {
+		int[] arr = {3, 14, 8, 97, 420, 0};
+		
+		System.out.println("Original array");
+		printArray(arr);
+		
+		System.out.println("\nSorting array...");
+		sort(arr);
+		
+		printArray(arr);
+		
+		
+	}
+
+
+	public static void sort(int[] arr)
+	{
+		
+//		for(int i  = 0; i < arr.length; i++)
+//		{
+//			int x = 0;
+//			int y = 1;
+//			while(x < arr.length - 1) // can subtract i
+//			{
+//				if(arr[x] < arr[y])
+//				{
+//					// swap x and y
+//					int temp = arr[x];
+//					arr[x] = arr[y];
+//					arr[y] = temp;
+//				}
+//				x++;
+//				y++;
+//			}
+//		}
+		for(int i = 0; i < arr.length; i++)
+		{
+		
+			int x = 0;
+			int y = 1;
+			int b = 0;
+		
+			while(b < arr.length - 1)
+			{
+				if(arr[x] < arr[y])
+				{
+					int temp = arr[x];
+					arr[x] = arr[y];
+					arr[y] = temp;
+				}
+				x++;
+				y++;
+				b++;
+			}
+		}
+	}
+	
+	public static void printArray(int[] arr) 
+	{
+		for(int i = 0; i < arr.length; i++)
+			System.out.print(arr[i] + "  ");
+	}
+
+	
+}

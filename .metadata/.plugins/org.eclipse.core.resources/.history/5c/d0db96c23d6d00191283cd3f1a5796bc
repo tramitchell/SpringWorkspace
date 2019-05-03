@@ -1,0 +1,76 @@
+package com.revature.sorting;
+
+import java.util.Arrays;
+
+public class SelectionSort {
+
+	public static void main(String[] args) {
+		int[] array = {5, 9, 21, -44, 8};
+		sort(array);
+		System.out.println(Arrays.toString(array));
+	}
+	
+	public static int findMin(int[] arr)
+	{
+		int min = arr[0];
+		for(int i = 0; i < arr.length; i++)
+		{
+			if(arr[i] < min)
+				min = arr[i];			
+		}
+		return min;
+	}
+	
+	public static void sort(int[] arr)
+	{
+		/*
+		 * find min of unsorted section
+		 * arr[i] = min
+		 * move everything up
+		 */
+		
+		
+		
+		
+//		for(int i = 0; i < arr.length - 1; i++)
+//		{
+			// find min of unsorted section
+			int indexOfMin = 0;
+			int min = arr[0];
+			for(int j = 0/*i*/; j < arr.length; j++)
+			{
+				if(arr[j] < min)
+				{
+					indexOfMin = j;
+					min = arr[indexOfMin];			
+				}
+			}
+			// shuffle contents so min goes into the sorted section
+			// and the remaining values move up a space
+			//int temp = arr[i];
+			
+			// create temp array holding i sorted values
+			// followed by the remaining unsorted values
+			int[] temp = new int[arr.length];
+			for(int j = 0/*i*/ + 1; j <= indexOfMin; j++)
+			{
+				temp[j] = arr[j - 1];
+				
+			}
+			temp[0/*i*/] = min;
+			
+			for(int j = 0; j < arr.length; j++)
+				arr[j] = temp[j];
+			
+
+//		}
+		
+		
+	
+		
+		
+		
+	}
+	
+	
+}

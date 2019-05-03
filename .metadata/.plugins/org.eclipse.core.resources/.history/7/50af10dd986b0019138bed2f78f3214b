@@ -1,0 +1,10 @@
+package com.revature.interfaces;
+
+public class SavingsAccount extends Account {
+	int withdrawLimit;
+	
+	public void deposit(int amt) 
+	{
+		this.balance += amt;
+	}
+}

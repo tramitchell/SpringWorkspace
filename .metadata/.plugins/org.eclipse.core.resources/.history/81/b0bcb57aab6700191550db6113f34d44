@@ -1,0 +1,17 @@
+package bankaccountapp;
+
+public class Checking extends Account {
+	// properites
+	
+	
+	// constructor
+	public Checking() {
+		System.out.println("NEW CHECKING ACCOUNT");
+		
+		
+	}
+	
+	//methods 
+	
+
+}

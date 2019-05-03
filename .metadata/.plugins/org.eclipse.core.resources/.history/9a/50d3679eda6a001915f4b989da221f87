@@ -1,0 +1,26 @@
+package com.model;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Deck myDeck = new Deck();
+		System.out.println(myDeck.cardList.size() );
+		for(int i = 0; i < 52; i++)
+		{
+			if(myDeck.hasNext())
+			{
+				myDeck.dealCard().printCard();
+				System.out.println("\t" + myDeck.cardList.size());
+			}
+			else
+			{
+				System.out.println("All cards dealt!");
+			}
+			
+//			myDeck.dealCard().printCard();
+//			System.out.println("\t" + myDeck.cardList.size());
+				
+		}
+	}
+
+}

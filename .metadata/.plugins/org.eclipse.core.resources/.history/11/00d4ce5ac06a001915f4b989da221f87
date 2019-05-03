@@ -1,0 +1,23 @@
+package runner;
+
+import java.util.ArrayList;
+
+import fruits.Date;
+import time.Date;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Deck myDeck = new Deck();
+		
+		
+		for(String s: list)
+			System.out.println(s);
+		
+		
+		
+		
+		
+	}
+
+}

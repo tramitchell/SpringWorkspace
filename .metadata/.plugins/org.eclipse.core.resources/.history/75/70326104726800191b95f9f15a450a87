@@ -1,0 +1,22 @@
+package bankaccountapp;
+
+public class Checking extends Account {
+	// properites
+	int debitCardNumber;
+	int debitCardPin;
+	
+	// constructor
+	public Checking(String name, String ssn, double initDeposit) {
+		super(name, ssn, initDeposit);
+		accountNumber = "2" + accountNumber;
+	}
+
+	
+	//methods 
+	public void showInfo() {
+		super.showInfo();
+		System.out.println("ACCOUNT TYPE: CHECKING");
+		
+	}
+
+}

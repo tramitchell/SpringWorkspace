@@ -1,0 +1,6 @@
+package com.model;
+
+public class Card {
+	public Suit suit = Suit.HEARTS;
+	public Face face;
+}

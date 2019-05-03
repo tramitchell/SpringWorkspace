@@ -1,0 +1,20 @@
+package bankaccountapp;
+
+public abstract class Account implements IRate {
+	// properties
+	String name;
+	String ssn;
+	
+	String accountNumber;
+	double balance;
+	double rate;
+	
+	//constructor
+	public Account(String name) {
+		System.out.print("NEW ACCOUNT: ");
+	}
+	
+	
+	
+	// common methods
+}

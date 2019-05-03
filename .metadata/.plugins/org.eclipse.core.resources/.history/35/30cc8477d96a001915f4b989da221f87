@@ -1,0 +1,76 @@
+package com.model;
+
+import java.util.ArrayList;
+
+public class Deck {
+
+	ArrayList<Card> cardList;
+	
+	
+	public Deck() {
+		this.cardList = new ArrayList<Card>();
+		
+		
+		cardList.add((int) (Math.random() * 1 ),new Card(Suit.SPADES,Face.TWO));
+		cardList.add((int) (Math.random() * 2 ),new Card(Suit.SPADES,Face.THREE));
+		cardList.add((int) (Math.random() * 3 ),new Card(Suit.SPADES,Face.FOUR));
+		cardList.add((int) (Math.random() * 4 ),new Card(Suit.SPADES,Face.FIVE));
+		cardList.add((int) (Math.random() * 5 ),new Card(Suit.SPADES,Face.SIX));
+		cardList.add((int) (Math.random() * 6 ),new Card(Suit.SPADES,Face.SEVEN));
+		cardList.add((int) (Math.random() * 7 ),new Card(Suit.SPADES,Face.EIGHT));
+		cardList.add((int) (Math.random() * 8 ),new Card(Suit.SPADES,Face.NINE));
+		cardList.add((int) (Math.random() * 9 ),new Card(Suit.SPADES,Face.TEN));
+		cardList.add((int) (Math.random() * 10 ),new Card(Suit.SPADES,Face.JACK));
+		cardList.add((int) (Math.random() * 11 ),new Card(Suit.SPADES,Face.QUEEN));
+		cardList.add((int) (Math.random() * 12 ),new Card(Suit.SPADES,Face.KING));
+		cardList.add((int) (Math.random() * 13 ),new Card(Suit.SPADES,Face.ACE));
+		cardList.add((int) (Math.random() * 14 ),new Card(Suit.DIAMONDS,Face.TWO));
+		cardList.add((int) (Math.random() * 15 ),new Card(Suit.DIAMONDS,Face.THREE));
+		cardList.add((int) (Math.random() * 16 ),new Card(Suit.DIAMONDS,Face.FOUR));
+		cardList.add((int) (Math.random() * 17 ),new Card(Suit.DIAMONDS,Face.FIVE));
+		cardList.add((int) (Math.random() * 18 ),new Card(Suit.DIAMONDS,Face.SIX));
+		cardList.add((int) (Math.random() * 19 ),new Card(Suit.DIAMONDS,Face.SEVEN));
+		cardList.add((int) (Math.random() * 20 ),new Card(Suit.DIAMONDS,Face.EIGHT));
+		cardList.add((int) (Math.random() * 21 ),new Card(Suit.DIAMONDS,Face.NINE));
+		cardList.add((int) (Math.random() * 22 ),new Card(Suit.DIAMONDS,Face.TEN));
+		cardList.add((int) (Math.random() * 23 ),new Card(Suit.DIAMONDS,Face.JACK));
+		cardList.add((int) (Math.random() * 24 ),new Card(Suit.DIAMONDS,Face.QUEEN));
+		cardList.add((int) (Math.random() * 25 ),new Card(Suit.DIAMONDS,Face.KING));
+		cardList.add((int) (Math.random() * 26 ),new Card(Suit.DIAMONDS,Face.ACE));
+		cardList.add((int) (Math.random() * 27 ),new Card(Suit.HEARTS,Face.TWO));
+		cardList.add((int) (Math.random() * 28 ),new Card(Suit.HEARTS,Face.THREE));
+		cardList.add((int) (Math.random() * 29 ),new Card(Suit.HEARTS,Face.FOUR));
+		cardList.add((int) (Math.random() * 30 ),new Card(Suit.HEARTS,Face.FIVE));
+		cardList.add((int) (Math.random() * 31 ),new Card(Suit.HEARTS,Face.SIX));
+		cardList.add((int) (Math.random() * 32 ),new Card(Suit.HEARTS,Face.SEVEN));
+		cardList.add((int) (Math.random() * 33 ),new Card(Suit.HEARTS,Face.EIGHT));
+		cardList.add((int) (Math.random() * 34 ),new Card(Suit.HEARTS,Face.NINE));
+		cardList.add((int) (Math.random() * 35 ),new Card(Suit.HEARTS,Face.TEN));
+		cardList.add((int) (Math.random() * 36 ),new Card(Suit.HEARTS,Face.JACK));
+		cardList.add((int) (Math.random() * 37 ),new Card(Suit.HEARTS,Face.QUEEN));
+		cardList.add((int) (Math.random() * 38 ),new Card(Suit.HEARTS,Face.KING));
+		cardList.add((int) (Math.random() * 39 ),new Card(Suit.HEARTS,Face.ACE));
+		cardList.add((int) (Math.random() * 40 ),new Card(Suit.CLUBS,Face.TWO));
+		cardList.add((int) (Math.random() * 41 ),new Card(Suit.CLUBS,Face.THREE));
+		cardList.add((int) (Math.random() * 42 ),new Card(Suit.CLUBS,Face.FOUR));
+		cardList.add((int) (Math.random() * 43 ),new Card(Suit.CLUBS,Face.FIVE));
+		cardList.add((int) (Math.random() * 44 ),new Card(Suit.CLUBS,Face.SIX));
+		cardList.add((int) (Math.random() * 45 ),new Card(Suit.CLUBS,Face.SEVEN));
+		cardList.add((int) (Math.random() * 46 ),new Card(Suit.CLUBS,Face.EIGHT));
+		cardList.add((int) (Math.random() * 47 ),new Card(Suit.CLUBS,Face.NINE));
+		cardList.add((int) (Math.random() * 48 ),new Card(Suit.CLUBS,Face.TEN));
+		cardList.add((int) (Math.random() * 49 ),new Card(Suit.CLUBS,Face.JACK));
+		cardList.add((int) (Math.random() * 50 ),new Card(Suit.CLUBS,Face.QUEEN));
+		cardList.add((int) (Math.random() * 51 ),new Card(Suit.CLUBS,Face.KING));
+		cardList.add((int) (Math.random() * 52 ),new Card(Suit.CLUBS,Face.ACE));
+	}
+		
+	
+	public Card dealCard() {
+		//if(this.cardList.size() < 1)
+		//	return null;
+		return this.cardList.remove(0);
+	}
+	
+	
+}

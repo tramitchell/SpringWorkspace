@@ -1,0 +1,15 @@
+package bankaccountapp;
+
+public class BankAccountApp {
+	
+	public static void main(String[] args) {
+		
+		Checking chkAcc1 = new Checking();
+		
+		// read csv, create accounts
+		
+	}
+		
+	
+	
+}

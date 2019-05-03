@@ -1,0 +1,12 @@
+package com.revature.interfaces;
+
+public abstract class Account implements Bankable {
+
+	String accountName;
+	double balance;
+	
+	public void deposit(int amt) 
+	{
+		this.balance += amt;
+	}
+}

@@ -1,0 +1,6 @@
+
+public class Food {
+
+	private int myVar;
+	public final int getMyVar() {return myVar;}
+}

@@ -1,0 +1,12 @@
+package com.revature.interfaces;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Dog martin = new Dog();
+		martin.speak();
+		martin.eat();
+		System.out.println(martin.getOwner());
+	}
+
+}

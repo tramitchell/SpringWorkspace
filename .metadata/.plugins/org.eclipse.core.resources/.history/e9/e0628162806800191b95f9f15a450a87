@@ -1,0 +1,45 @@
+package bankaccountapp;
+
+import java.util.List;
+
+import utilities.CSV;
+
+public class BankAccountApp {
+	
+	public static void main(String[] args) {
+		String file = "C:\\Users\\Tucker\\Downloads\\NewBankAccounts.csv";
+		
+		/*
+		Checking chkAcc1 = new Checking("Tom Wilson", "123456789", 1500);
+		Savings savAcc1 = new Savings("Rich Lowe", "152643879", 2500);
+
+		
+		
+		savAcc1.compound();
+
+		savAcc1.showInfo();
+		System.out.println("+++++++++++++++++++++++");
+		chkAcc1.showInfo();
+		*/
+		
+		
+		/// read csv
+		List<String[]> newAccountHolders = CSV.read(file);
+		
+		for(String[] accountHolder: newAccountHolders) {
+			System.out.println("new account");
+			System.out.println(accountHolder[0]);
+			System.out.println(accountHolder[1]);
+			System.out.println(accountHolder[2]);
+			System.out.println(accountHolder[3]);
+
+		}
+		
+		
+		
+		
+	}
+		
+	
+	
+}

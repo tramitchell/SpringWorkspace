@@ -1,0 +1,19 @@
+package bankaccountapp;
+
+public class Checking extends Account {
+	// properites
+	int debitCardNumber;
+	int debitCardPin;
+	
+	// constructor
+	public Checking(String name, String ssn, double initDeposit) {
+		super(name);
+		System.out.println("NEW CHECKING ACCOUNT");
+		System.out.println("NAME: " + name);
+	}
+
+	
+	//methods 
+	
+
+}

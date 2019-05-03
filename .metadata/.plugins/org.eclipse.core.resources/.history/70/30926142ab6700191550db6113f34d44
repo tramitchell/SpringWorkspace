@@ -1,0 +1,11 @@
+package bankaccountapp;
+
+public abstract class Account IRate {
+	// properties
+	
+	//constructor
+	public Account() {
+		System.out.println("NEW ACCOUNT");
+	}
+	// common methods
+}

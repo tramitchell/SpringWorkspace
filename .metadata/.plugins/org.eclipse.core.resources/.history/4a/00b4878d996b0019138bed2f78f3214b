@@ -1,0 +1,10 @@
+package com.revature.interfaces;
+
+public interface Bankable {
+	default void withdraw(int amt) {
+		
+	}
+	
+	void deposit(int amt);
+	// interest rate
+}

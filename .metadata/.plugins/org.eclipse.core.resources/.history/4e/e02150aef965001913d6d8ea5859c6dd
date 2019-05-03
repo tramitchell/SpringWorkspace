@@ -1,0 +1,43 @@
+package com.revature.blueprint;
+
+import java.sql.Date;
+
+public class RocketShip {
+	String name;
+	int numOfRockets;
+	int fuelCapacity;
+	boolean isMiniFridge;
+	
+	public RocketShip(String name, int numOfRockets, int fuelCapacity, boolean isMiniFridge) {
+		this.name = name;
+		this.numOfRockets = numOfRockets;
+		this.fuelCapacity = fuelCapacity;
+		this.isMiniFridge = isMiniFridge;
+	}
+	
+	public RocketShip() {
+		
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		System.out.println("Goodbye, Earth");
+		RocketShip rs1 = new RocketShip("Steve",3000,7,true);
+		System.out.println(rs1.getName());
+		rs1.setName("StillSteve");
+		System.out.println(rs1.getName());
+		
+		Date d1 = new Date(1L); //uses java.sql.date
+		java.util.Date d2 = new Date(2L); //uses java.util.date
+	}
+	
+	
+}

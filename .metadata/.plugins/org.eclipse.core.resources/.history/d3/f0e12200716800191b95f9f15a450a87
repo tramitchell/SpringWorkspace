@@ -1,0 +1,27 @@
+package bankaccountapp;
+
+public class Savings extends Account {
+
+	int safetyDepositBoxID;
+	int safetyDepositBoxKey;
+	
+	
+	//
+	public Savings(String name, String ssn, double initDeposit) {
+		super(name, ssn, initDeposit);
+		accountNumber = "1" + accountNumber;
+		setSafetyDepositBox();
+	}
+	
+	private void setSafetyDepositBox() {
+		this.safetyDepositBoxID = (int) (Math.random() * Math.pow(10, 3) );
+		System.out.println(this.safetyDepositBoxID);
+		
+	}
+	
+	public void showInfo() {
+		super.showInfo();
+		System.out.println("ACCOUNT TYPE: SAVINGS");
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.revature.interfaces;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Dog myDog = new Dog();
+	}
+
+}

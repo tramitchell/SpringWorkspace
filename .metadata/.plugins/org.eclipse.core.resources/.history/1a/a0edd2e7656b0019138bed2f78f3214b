@@ -1,0 +1,88 @@
+package com.model;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Table myTable = new Table();
+
+		myTable.dealToDealer();
+		myTable.dealToPlayer();
+		myTable.dealToPlayer();		
+		
+		myTable.printStatus();
+		
+		
+		
+
+		
+		while(true)
+		{
+		
+		
+			switch(scan.nextLine().toUpperCase())
+			{
+			case "H":
+	
+				myTable.dealToPlayer();
+				myTable.printStatus();
+				if(myTable.playerHand.sum() > 21)
+					System.out.println("bust"); // clear data? //deal new hand?
+				else
+				{
+					System.out.println('?');
+				}
+				
+				for(int i = 0; i < 8; i++)
+					System.out.println();
+				
+				break;
+			case "S":
+				myTable.dealToDealer();
+				myTable.printStatus();
+				try
+				{
+				    Thread.sleep(1000);
+				}
+				catch(InterruptedException ex)
+				{
+				    Thread.currentThread().interrupt();
+				}
+				
+				break;
+			default:
+				System.out.println("Please enter \'h\' or \'s\'");
+				//////
+			}
+		
+		}
+		
+		
+		
+		
+		
+//		System.out.println("\t" + myDeck.cardList.size() );
+//		for(int i = 0; i < 52; i++)
+//		{
+//			if(myDeck.hasNext())
+//			{
+//				myDeck.dealCard().printCard();
+//				System.out.println("\t" + myDeck.cardList.size());
+//			}
+//			else
+//			{
+//				System.out.println("All cards dealt!");
+//			}
+//		}
+		
+		
+		
+		
+		
+	}
+
+}

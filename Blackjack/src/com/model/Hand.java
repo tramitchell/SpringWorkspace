@@ -1,0 +1,106 @@
+package com.model;
+
+import java.util.ArrayList;
+
+public class Hand {
+	ArrayList<Card> cards;
+	
+	public Hand() {
+		this.cards = new ArrayList<Card>();
+	}
+	
+	public void add(Card c) {
+		this.cards.add(c);
+	}
+	
+	
+	public int sum() {
+		int sum = 0;
+		int numAces = 0;
+		for(Card c: cards)
+		{
+		
+			switch(c.face)
+			{
+			case TWO:
+				sum += 2;
+				break;
+			case THREE:
+				sum += 3;
+				break;
+			case FOUR:
+				sum += 4;
+				break;
+			case FIVE:
+				sum += 5;
+				break;
+			case SIX:
+				sum += 6;
+				break;
+			case SEVEN:
+				sum += 7;
+				break;
+			case EIGHT:
+				sum += 8;
+				break;
+			case NINE:
+				sum += 9;
+				break;
+			case TEN:
+				sum += 10;
+				break;
+			case JACK:
+				sum += 10;
+				break;
+			case QUEEN:
+				sum += 10;
+				break;
+			case KING:
+				sum += 10;
+				break;
+			case ACE:
+				numAces++;
+				break;
+			}
+		}
+		switch(numAces)
+		{
+		case 1:
+			sum += 1;
+			if(sum + 10 < 22)
+				sum += 10;
+			break;
+		case 2:
+			sum += 2;
+			if(sum + 10 < 22)
+				sum += 10;
+			break;
+		case 3:
+			sum += 3;
+			if(sum + 10 < 22)
+				sum += 10;
+			break;
+		case 4:
+			sum += 4;
+			if(sum + 10 < 22)
+				sum += 10;
+			break;
+		}
+		return sum;
+		
+		
+		
+		
+	}
+	public void printHand() {
+		
+		for(int i = 0; i < this.cards.size(); i++)
+		{
+			this.cards.get(i).printCard();
+			System.out.print(' ');
+		}
+		
+	}
+	
+	
+}

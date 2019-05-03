@@ -1,0 +1,15 @@
+package bankaccountapp;
+
+public class Savings extends Account {
+
+	int safetyDepositBoxID;
+	int safetyDepositBoxKey;
+	
+	
+	//
+	public Savings(String name, String ssn, double initDeposit) {
+		super(name);
+		System.out.println("NEW SAVINGS ACCOUNT");
+		System.out.println("NAME: " + name);
+	}
+}

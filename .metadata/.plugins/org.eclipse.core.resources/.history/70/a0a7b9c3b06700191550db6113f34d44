@@ -1,0 +1,38 @@
+package bankaccountapp;
+
+public abstract class Account implements IRate {
+	// properties
+	String name;
+	String ssn;
+	
+	String accountNumber;
+	double balance;
+	double rate;
+	
+	static int index = 10_000;
+	
+	
+	//constructor
+	public Account(String name, String ssn, double initDeposit) {
+		this.name = name;
+		this.ssn = ssn;
+		this.balance = initDeposit;
+		System.out.println("name: " + this.name);
+		System.out.println("ssn: " + this.ssn);
+		System.out.println("balance: " + this.balance);
+		
+		//set acc. num
+		index++;
+		this.accountNumber = setAccountNumber();
+		System.out.println("ACCOUNT NUMBER: " + this.accountNumber);
+	}
+	
+	private String setAccountNumber() {
+		String lastTwoOfSSN = ssn.substring(ssn.length() - 2, ssn.length());
+		int uniqueID = index;
+		int randomNumber = (int) ( Math.random() * Math.pow(10,3) );
+		return lastTwoOfSSN + uniqueID;
+	}
+	
+	// common methods
+}

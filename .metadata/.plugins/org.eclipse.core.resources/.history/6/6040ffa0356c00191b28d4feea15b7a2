@@ -1,0 +1,10 @@
+package com.revature.mdarrays;
+
+public class TwoDArray {
+
+	public static void main(String[] args) {
+		int[][] twoD = new int[4][5];
+		System.out.println(twoD.length);
+		
+	}
+}

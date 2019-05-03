@@ -1,0 +1,6 @@
+
+public class Food {
+
+	private int myVar;
+	protected int getMyVar() {return myVar;}
+}

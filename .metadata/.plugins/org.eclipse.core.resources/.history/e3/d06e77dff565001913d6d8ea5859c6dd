@@ -1,0 +1,21 @@
+package com.revature.blueprint;
+
+public class RocketShip {
+	String name;
+	int numOfRockets;
+	int fuelCapacity;
+	boolean isMiniFridge;
+	
+	public RocketShip(String name, int numOfRockets, int fuelCapacity, boolean isMiniFridge) {
+		this.name = name;
+		this.numOfRockets = numOfRockets;
+		this.fuelCapacity = fuelCapacity;
+		this.isMiniFridge = isMiniFridge;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Goodbye, Earth");
+		RocketShip rs1 = new RocketShip("Steve",3000,7,true);
+		System.out.println(rs1.numOfRockets);
+	}
+}

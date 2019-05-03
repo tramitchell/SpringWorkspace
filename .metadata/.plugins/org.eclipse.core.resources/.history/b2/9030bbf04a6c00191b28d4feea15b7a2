@@ -1,0 +1,7 @@
+package com.revature.util;
+
+public class MyLinkedList<T> 
+{
+	// root node (the head)
+	private Node<T> head;
+}
