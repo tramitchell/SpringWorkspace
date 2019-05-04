@@ -9,7 +9,7 @@ public class Node<T>
 	{
 		super();
 		this.data = data;
-		this.nextNode = nextNode;
+		this.nextNode = nextNode; 
 	}
 	
 	public T getData()

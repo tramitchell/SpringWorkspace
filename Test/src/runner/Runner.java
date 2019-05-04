@@ -1,19 +1,21 @@
 package runner;
 
-import java.util.ArrayList;
-
-import fruits.Date;
-import time.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Runner {
 
 	public static void main(String[] args) {
 		
 		
-		for(String s: list)
-			System.out.println(s);
+		Map<String, Integer> m = new HashMap<String, Integer>();
 		
+		Integer one = new Integer(1);
 		
+		m.put("a", one);
+		m.put("b", one);
+		System.out.println( m.get("a") );
+		System.out.println( m.get("b") );
 		
 		
 		

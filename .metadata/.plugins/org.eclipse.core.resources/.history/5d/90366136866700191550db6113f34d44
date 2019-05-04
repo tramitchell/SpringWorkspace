@@ -1,8 +1,0 @@
-package com.revature.pillars;
-
-import com.revature.blueprint.RocketShip;
-
-public class UltraRocketShip extends RocketShip {
-	private boolean hasBar;
-		private String warpDriveModel;
-}
