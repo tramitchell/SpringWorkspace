@@ -9201,3 +9201,873 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 17:55:44.980
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eIwUWZtU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.915
+!MESSAGE Boot LS startup time from start to initialized: 3643ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.937
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EQucyIrA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.939
+!MESSAGE subscribing to classpath changes: sts4.classpath.EQucyIrA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.940
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.941
+!MESSAGE subsribers = [sts4.classpath.EQucyIrA]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.942
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.944
+!MESSAGE project sort-stack ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.946
+!MESSAGE Preparing classpath changed notification sort-stack
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.947
+!MESSAGE project Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.948
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.949
+!MESSAGE project binary-tree-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.951
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.952
+!MESSAGE project blackjack ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.953
+!MESSAGE executing callback sts4.classpath.EQucyIrA sort-stack false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.954
+!MESSAGE project contains-substrings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.958
+!MESSAGE project core-java-matt ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.960
+!MESSAGE project fizz-buzz ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.962
+!MESSAGE project linked-list-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.963
+!MESSAGE project min-stack-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.965
+!MESSAGE project mock-bank-project ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.967
+!MESSAGE project palindromes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.969
+!MESSAGE project stack-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.972
+!MESSAGE project string-reverse ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.973
+!MESSAGE project udemy-bank-app ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.976
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.977
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EQucyIrA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.979
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.980
+!MESSAGE Preparing classpath changed notification udemy-bank-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.980
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.985
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.986
+!MESSAGE executing callback sts4.classpath.EQucyIrA udemy-bank-app false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.991
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.991
+!MESSAGE Preparing classpath changed notification string-reverse
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.995
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:27.998
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.000
+!MESSAGE executing callback sts4.classpath.EQucyIrA string-reverse false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.004
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.004
+!MESSAGE Preparing classpath changed notification stack-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.008
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.010
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.011
+!MESSAGE executing callback sts4.classpath.EQucyIrA stack-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.016
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.017
+!MESSAGE Preparing classpath changed notification palindromes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.018
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.020
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.021
+!MESSAGE executing callback sts4.classpath.EQucyIrA palindromes false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.026
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.027
+!MESSAGE Preparing classpath changed notification mock-bank-project
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.028
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.031
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.032
+!MESSAGE executing callback sts4.classpath.EQucyIrA mock-bank-project false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.036
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.036
+!MESSAGE Preparing classpath changed notification min-stack-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.039
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.041
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.042
+!MESSAGE executing callback sts4.classpath.EQucyIrA min-stack-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.042
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.050
+!MESSAGE Preparing classpath changed notification linked-list-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.054
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.056
+!MESSAGE executing callback sts4.classpath.EQucyIrA linked-list-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.057
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.061
+!MESSAGE Preparing classpath changed notification fizz-buzz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.069
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.070
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.070
+!MESSAGE executing callback sts4.classpath.EQucyIrA fizz-buzz false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.074
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.080
+!MESSAGE Preparing classpath changed notification core-java-matt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.080
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.084
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.086
+!MESSAGE executing callback sts4.classpath.EQucyIrA core-java-matt false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.091
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.093
+!MESSAGE Preparing classpath changed notification contains-substrings
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.094
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.096
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.096
+!MESSAGE executing callback sts4.classpath.EQucyIrA contains-substrings false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.101
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.102
+!MESSAGE Preparing classpath changed notification blackjack
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.103
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.104
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.106
+!MESSAGE executing callback sts4.classpath.EQucyIrA blackjack false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.109
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.110
+!MESSAGE Preparing classpath changed notification binary-tree-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.111
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.113
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.114
+!MESSAGE executing callback sts4.classpath.EQucyIrA binary-tree-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.124
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.125
+!MESSAGE Preparing classpath changed notification Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.126
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.128
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.130
+!MESSAGE executing callback sts4.classpath.EQucyIrA Test false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 18:25:28.133
+!MESSAGE executing callback sts4.classpath.EQucyIrA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:38.065
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EQucyIrA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:38.065
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.EQucyIrA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:38.065
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:38.065
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EQucyIrA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:42.987
+!MESSAGE Boot LS startup time from start to initialized: 3804ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.003
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SRPHUnZU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE subscribing to classpath changes: sts4.classpath.SRPHUnZU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE subsribers = [sts4.classpath.SRPHUnZU]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE project min-stack-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE Preparing classpath changed notification min-stack-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE project Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE project binary-tree-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE project blackjack ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE executing callback sts4.classpath.SRPHUnZU min-stack-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.018
+!MESSAGE project contains-substrings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.034
+!MESSAGE project core-java-matt ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.034
+!MESSAGE project fizz-buzz ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.034
+!MESSAGE project linked-list-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.040
+!MESSAGE project mock-bank-project ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.040
+!MESSAGE project palindromes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.040
+!MESSAGE project sort-stack ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.040
+!MESSAGE project stack-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.040
+!MESSAGE project string-reverse ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.056
+!MESSAGE project udemy-bank-app ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.056
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.056
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SRPHUnZU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.056
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.056
+!MESSAGE Preparing classpath changed notification udemy-bank-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.056
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.056
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.072
+!MESSAGE executing callback sts4.classpath.SRPHUnZU udemy-bank-app false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.072
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.072
+!MESSAGE Preparing classpath changed notification string-reverse
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.072
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.072
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.087
+!MESSAGE executing callback sts4.classpath.SRPHUnZU string-reverse false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.087
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.087
+!MESSAGE Preparing classpath changed notification stack-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.087
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.087
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.087
+!MESSAGE executing callback sts4.classpath.SRPHUnZU stack-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.103
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.103
+!MESSAGE Preparing classpath changed notification sort-stack
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.103
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.103
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.103
+!MESSAGE executing callback sts4.classpath.SRPHUnZU sort-stack false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.119
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.119
+!MESSAGE Preparing classpath changed notification palindromes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.119
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.119
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.119
+!MESSAGE executing callback sts4.classpath.SRPHUnZU palindromes false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.119
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.119
+!MESSAGE Preparing classpath changed notification mock-bank-project
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.119
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.134
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.134
+!MESSAGE executing callback sts4.classpath.SRPHUnZU mock-bank-project false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.141
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.141
+!MESSAGE Preparing classpath changed notification linked-list-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.141
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.141
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.141
+!MESSAGE executing callback sts4.classpath.SRPHUnZU linked-list-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.141
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.141
+!MESSAGE Preparing classpath changed notification fizz-buzz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.141
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.156
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.156
+!MESSAGE executing callback sts4.classpath.SRPHUnZU fizz-buzz false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.156
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.156
+!MESSAGE Preparing classpath changed notification core-java-matt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.156
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.156
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.156
+!MESSAGE executing callback sts4.classpath.SRPHUnZU core-java-matt false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.172
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.172
+!MESSAGE Preparing classpath changed notification contains-substrings
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.172
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.172
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.172
+!MESSAGE executing callback sts4.classpath.SRPHUnZU contains-substrings false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.188
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.188
+!MESSAGE Preparing classpath changed notification blackjack
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.188
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.188
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.188
+!MESSAGE executing callback sts4.classpath.SRPHUnZU blackjack false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.188
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.203
+!MESSAGE Preparing classpath changed notification binary-tree-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.203
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.203
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.203
+!MESSAGE executing callback sts4.classpath.SRPHUnZU binary-tree-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.203
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.203
+!MESSAGE Preparing classpath changed notification Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.203
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.203
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.219
+!MESSAGE executing callback sts4.classpath.SRPHUnZU Test false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:10:43.219
+!MESSAGE executing callback sts4.classpath.SRPHUnZU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:03.416
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SRPHUnZU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:03.420
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SRPHUnZU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:03.422
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:03.424
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SRPHUnZU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.600
+!MESSAGE Boot LS startup time from start to initialized: 3721ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.623
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AeANJBMU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.625
+!MESSAGE subscribing to classpath changes: sts4.classpath.AeANJBMU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.626
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.627
+!MESSAGE subsribers = [sts4.classpath.AeANJBMU]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.628
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.630
+!MESSAGE project sort-stack ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.631
+!MESSAGE Preparing classpath changed notification sort-stack
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.633
+!MESSAGE project Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.634
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.635
+!MESSAGE project binary-tree-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.636
+!MESSAGE project blackjack ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.637
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.638
+!MESSAGE project contains-substrings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.640
+!MESSAGE executing callback sts4.classpath.AeANJBMU sort-stack false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.642
+!MESSAGE project core-java-matt ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.645
+!MESSAGE project fizz-buzz ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.646
+!MESSAGE project linked-list-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.648
+!MESSAGE project min-stack-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.650
+!MESSAGE project mock-bank-project ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.651
+!MESSAGE project palindromes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.653
+!MESSAGE project stack-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.655
+!MESSAGE project string-reverse ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.657
+!MESSAGE project udemy-bank-app ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.661
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.663
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AeANJBMU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.673
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.675
+!MESSAGE Preparing classpath changed notification udemy-bank-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.676
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.678
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.680
+!MESSAGE executing callback sts4.classpath.AeANJBMU udemy-bank-app false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.685
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.687
+!MESSAGE Preparing classpath changed notification string-reverse
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.688
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.690
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.692
+!MESSAGE executing callback sts4.classpath.AeANJBMU string-reverse false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.697
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.698
+!MESSAGE Preparing classpath changed notification stack-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.700
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.702
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.703
+!MESSAGE executing callback sts4.classpath.AeANJBMU stack-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.708
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.709
+!MESSAGE Preparing classpath changed notification palindromes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.711
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.712
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.713
+!MESSAGE executing callback sts4.classpath.AeANJBMU palindromes false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.719
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.720
+!MESSAGE Preparing classpath changed notification mock-bank-project
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.721
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.723
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.724
+!MESSAGE executing callback sts4.classpath.AeANJBMU mock-bank-project false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.729
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.730
+!MESSAGE Preparing classpath changed notification min-stack-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.732
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.734
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.735
+!MESSAGE executing callback sts4.classpath.AeANJBMU min-stack-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.745
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.747
+!MESSAGE Preparing classpath changed notification linked-list-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.748
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.750
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.751
+!MESSAGE executing callback sts4.classpath.AeANJBMU linked-list-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.759
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.762
+!MESSAGE Preparing classpath changed notification fizz-buzz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.766
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.768
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.770
+!MESSAGE executing callback sts4.classpath.AeANJBMU fizz-buzz false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.774
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.776
+!MESSAGE Preparing classpath changed notification core-java-matt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.777
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.779
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.780
+!MESSAGE executing callback sts4.classpath.AeANJBMU core-java-matt false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.784
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.786
+!MESSAGE Preparing classpath changed notification contains-substrings
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.787
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.789
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.790
+!MESSAGE executing callback sts4.classpath.AeANJBMU contains-substrings false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.795
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.796
+!MESSAGE Preparing classpath changed notification blackjack
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.797
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.799
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.800
+!MESSAGE executing callback sts4.classpath.AeANJBMU blackjack false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.803
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.804
+!MESSAGE Preparing classpath changed notification binary-tree-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.806
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.807
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.808
+!MESSAGE executing callback sts4.classpath.AeANJBMU binary-tree-demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.816
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.818
+!MESSAGE Preparing classpath changed notification Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.819
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.821
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.822
+!MESSAGE executing callback sts4.classpath.AeANJBMU Test false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-04 19:40:15.826
+!MESSAGE executing callback sts4.classpath.AeANJBMU SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-05-04 19:50:09.175
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-05-04 19:50:38.270
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-05-04 19:51:36.952
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-05-04 19:51:53.565
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-05-04 21:01:46.905
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-05-04 21:02:14.734
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread

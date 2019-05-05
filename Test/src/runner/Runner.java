@@ -8,16 +8,15 @@ public class Runner {
 	public static void main(String[] args) {
 		
 		
-		Map<String, Integer> m = new HashMap<String, Integer>();
+		String a = "a";
+		String A = "A";
+		String a1 = "1";
+		String b = "b";
 		
-		Integer one = new Integer(1);
-		
-		m.put("a", one);
-		m.put("b", one);
-		System.out.println( m.get("a") );
-		System.out.println( m.get("b") );
-		
-		
+		System.out.println(a.compareTo(A));
+		System.out.println(a.compareTo(a1));
+		System.out.println(A.compareTo(a1));
+		System.out.println(a.compareTo(b));
 		
 	}
 

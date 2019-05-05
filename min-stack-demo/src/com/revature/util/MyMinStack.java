@@ -27,14 +27,8 @@ public class MyMinStack {
 		}
 		
 		// check for new min value
-		if (currentMin.compareTo(newString) <= 0) 
-		{
-			currentMin = currentMin;
-		}
-		else
-		{
+		if (currentMin.compareTo(newString) > 0) 
 			currentMin = newString;
-		}
 		
 		// inserts new value
 		elements[currentElementPosition++] = newString;
