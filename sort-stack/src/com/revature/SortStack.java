@@ -19,14 +19,13 @@ public class SortStack
 		testStack.push(15);
 		testStack.push(6);
 		testStack.push(3);
-		
+
 		// sort stack
 		sort(testStack);
 		
-		// display stack
-		while(!testStack.empty())
-			System.out.println(testStack.pop());
-
+		
+		printList(testStack);
+		
 	}
 
 	public static void sort(Stack<Integer> originalStack)
@@ -35,30 +34,33 @@ public class SortStack
 		Stack<Integer> sortedStack = new Stack<Integer>();
 		// garbage stack is a temporary storage place for unsorted data
 		Stack<Integer> garbageStack = new Stack<Integer>();
-		
+
+		// repeat until original stack is depleted
 		int size = originalStack.size();
-		for(int c = 0; c < size; c++)
+		for (int c = 0; c < size; c++)
 		{
 			// pop values into the garbage stack until we find the max
 			int indexOfMax = indexOfMax(originalStack);
-			for(int i = 0; i < indexOfMax; i++)
-				garbageStack.push( originalStack.pop() );
-			
+			for (int i = 0; i < indexOfMax; i++)
+			{
+				garbageStack.push(originalStack.pop());
+			}
+
 			// once we find the max, push it to the bottom of the sortedStack
 			sortedStack.push(originalStack.pop());
-			
+
 			// pop the garbage stack onto the original stack
 			// just to get everything in one place
-			// this loop must iterate the same number of times as 
+			// this loop must iterate the same number of times as
 			// the for loop above
 			int putItBack = indexOfMax;
-			for( int i = 0; i < putItBack; i++)
-				originalStack.push( garbageStack.pop() );
-			
-			// repeat until original stack is depleted
+			for (int i = 0; i < putItBack; i++)
+			{
+				originalStack.push(garbageStack.pop());
+			}
 		}
-		
-		// make the stack point to the sortedStack
+
+		// make the static testStack point to the sortedStack
 		testStack = sortedStack;
 	}
 
@@ -89,7 +91,7 @@ public class SortStack
 		{
 			// get the value at the top of the stack
 			Integer current = stack.pop();
-			
+
 			// compare the current item to the maximum so far
 			if (current > max)
 			{
@@ -105,13 +107,28 @@ public class SortStack
 			currentIndex++;
 
 		}
-		
+
 		// take stored values and put everything back into the original
 		for (int i = 0; i < currentIndex; i++)
 			stack.push(tempStack.pop());
 
 		return indexOfMax;
 
+	}
+
+	public static void printList(Stack<Integer> myStack)
+	{
+		Stack<Integer> tempStack = new Stack<Integer>();
+		int size = myStack.size();
+		for (int i = 0; i < size; i++)
+		{
+			System.out.println(myStack.peek());
+			tempStack.push(myStack.pop());
+		}
+		for (int j = 0; j < size; j++)
+		{
+			myStack.push(tempStack.pop());
+		}
 	}
 
 }

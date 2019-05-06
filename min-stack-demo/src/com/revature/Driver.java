@@ -13,10 +13,11 @@ public class Driver
 		s.push("b");
 		s.push("a");
 		s.push("s");
-//		s.pop();  // pops "s"
-//		s.pop();  // pops "a"
-		
 		System.out.println(s.min());
+		s.pop();  // pops "s"
+		s.pop();  // pops "a"
+		System.out.println(s.min());
+		
 		
 	}
 	

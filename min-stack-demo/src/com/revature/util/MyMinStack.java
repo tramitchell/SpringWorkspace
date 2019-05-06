@@ -1,18 +1,19 @@
 package com.revature.util;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 public class MyMinStack {
 	
 	private int currentElementPosition = 0;
 	private String[] elements;
-	private String currentMin;
+	private PriorityQueue<String> sortedElements;
 	
 	
 	public MyMinStack(int initialSize)
 	{
 		elements = new String[initialSize];
-		currentMin = "zzzzzzzzzzzzzzzzzzzzzzzzzzzz";
+		sortedElements = new PriorityQueue<String>();
 
 	}
 	
@@ -27,8 +28,7 @@ public class MyMinStack {
 		}
 		
 		// check for new min value
-		if (currentMin.compareTo(newString) > 0) 
-			currentMin = newString;
+		sortedElements.add(newString);
 		
 		// inserts new value
 		elements[currentElementPosition++] = newString;
@@ -48,6 +48,8 @@ public class MyMinStack {
 		// retrieve the top  most element
 		String value = elements[--currentElementPosition];
 		
+		this.sortedElements.remove(value);
+		
 		// empty the element value
 		elements[currentElementPosition] = null;
 		
@@ -64,7 +66,7 @@ public class MyMinStack {
 	{
 		if(currentElementPosition == 0)
 			return null;
-		return this.currentMin;
+		return this.sortedElements.peek();
 	}
 	
 	
